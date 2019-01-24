@@ -29,7 +29,7 @@ def runserver(address, port):
 
 
 # Arg parser for the anaconda-project http options
-parser = ArgumentParser(prog="Hello Anaconda Enterprise", description="Minimal Anaconda Enteprise deployable example")
+parser = ArgumentParser(prog="Hello Whitney", description="Minimal Anaconda Enteprise deployable example")
 parser.add_argument('--anaconda-project-host', action='append', help='Hostname to allow in requests')
 parser.add_argument('--anaconda-project-no-browser', action='store_true', default=False, help='Disable opening in a browser')
 parser.add_argument('--anaconda-project-use-xheaders', action='store_true', default=False, help='Trust X-headers from reverse proxy')
